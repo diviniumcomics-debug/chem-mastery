@@ -1,0 +1,958 @@
+{
+ "cts.atoms": [
+  [
+   "write the electron configuration of any main-group atom or ion",
+   2.6
+  ],
+  [
+   "rank elements by atomic radius and ionization energy using periodic trends",
+   3.6
+  ],
+  [
+   "explain exceptions such as Cr, Cu and the O vs N ionization-energy dip",
+   4.3
+  ]
+ ],
+ "cts.bonding": [
+  [
+   "explain and balance the formation of sodium chloride (ionic bonding, electron transfer)",
+   2.6
+  ],
+  [
+   "draw Lewis structures of simple molecules and ions",
+   3
+  ],
+  [
+   "predict molecular geometry and polarity with VSEPR",
+   3.6
+  ],
+  [
+   "describe hybridization and sigma/pi bonding in a molecule",
+   4.2
+  ]
+ ],
+ "cts.stoich": [
+  [
+   "balance a chemical equation and convert grams to moles",
+   2.6
+  ],
+  [
+   "identify the limiting reagent and compute percent yield",
+   3.6
+  ],
+  [
+   "carry out dilution and titration calculations",
+   4.2
+  ]
+ ],
+ "cts.thermo": [
+  [
+   "use the ideal gas law to solve for P, V, n or T",
+   2.6
+  ],
+  [
+   "calculate heat flow in calorimetry and apply Hess's law",
+   3.6
+  ],
+  [
+   "explain why real gases deviate from ideal behavior",
+   4.3
+  ]
+ ],
+ "cts.equil": [
+  [
+   "predict the direction of a shift using Le Chatelier's principle",
+   2.6
+  ],
+  [
+   "calculate the pH of strong and weak acid solutions",
+   3.6
+  ],
+  [
+   "analyze buffers, titration curves and solubility equilibria",
+   4.3
+  ]
+ ],
+ "cts.redox": [
+  [
+   "assign oxidation states and identify what is oxidized and reduced",
+   2.6
+  ],
+  [
+   "balance redox reactions in acid or base",
+   3.2
+  ],
+  [
+   "calculate cell potentials and relate E° to ΔG° and K",
+   4
+  ]
+ ],
+ "pchem.qm": [
+  [
+   "describe the particle in a box and how energy scales with size",
+   2.6
+  ],
+  [
+   "apply the uncertainty principle and operator ideas",
+   3.6
+  ],
+  [
+   "interpret hydrogen-atom quantum numbers and degeneracies",
+   4.3
+  ]
+ ],
+ "pchem.thermo1": [
+  [
+   "apply the first law to work, heat and internal energy",
+   2.6
+  ],
+  [
+   "compute entropy changes for ideal-gas processes",
+   3.6
+  ],
+  [
+   "explain the Carnot cycle and the second law quantitatively",
+   4.3
+  ]
+ ],
+ "pchem.gibbs": [
+  [
+   "predict if a reaction is spontaneous from ΔG",
+   2.6
+  ],
+  [
+   "convert between ΔG° and the equilibrium constant",
+   3.6
+  ],
+  [
+   "use the van't Hoff equation to predict temperature effects on K",
+   4.3
+  ]
+ ],
+ "pchem.kin": [
+  [
+   "use integrated rate laws and half-lives for 0th/1st/2nd order",
+   2.6
+  ],
+  [
+   "extract Ea from Arrhenius data",
+   3.6
+  ],
+  [
+   "analyze mechanisms with steady-state and Lindemann treatments",
+   4.3
+  ]
+ ],
+ "pchem.stat": [
+  [
+   "use the Boltzmann distribution to find populations",
+   2.6
+  ],
+  [
+   "interpret a partition function and its limits",
+   3.6
+  ],
+  [
+   "relate partition functions to thermodynamic quantities",
+   4.3
+  ]
+ ],
+ "pchem.spec": [
+  [
+   "state selection rules for rotational and vibrational transitions",
+   2.6
+  ],
+  [
+   "compute vibrational and rotational energy levels",
+   3.6
+  ],
+  [
+   "interpret simple diatomic spectra for bond constants",
+   4.3
+  ]
+ ],
+ "klein.acidbase": [
+  [
+   "draw resonance structures and rank them by stability",
+   2.6
+  ],
+  [
+   "rank acidity using ARIO factors and pKa",
+   3.6
+  ],
+  [
+   "predict the direction of an acid–base equilibrium",
+   4.2
+  ]
+ ],
+ "klein.subst": [
+  [
+   "identify SN1, SN2, E1 or E2 from substrate, nucleophile and solvent",
+   2.6
+  ],
+  [
+   "predict stereochemical and regiochemical outcomes of substitution and elimination",
+   3.6
+  ],
+  [
+   "rationalize competing substitution/elimination pathways",
+   4.3
+  ]
+ ],
+ "klein.addition": [
+  [
+   "predict Markovnikov and anti-Markovnikov alkene additions",
+   2.6
+  ],
+  [
+   "choose reagents for hydroboration, epoxidation and dihydroxylation",
+   3.6
+  ],
+  [
+   "plan alkyne reductions and hydrations",
+   4.2
+  ]
+ ],
+ "klein.radical": [
+  [
+   "write the initiation, propagation and termination steps of a radical chain",
+   2.6
+  ],
+  [
+   "explain selectivity of bromination vs chlorination",
+   3.6
+  ]
+ ],
+ "klein.carbonyl": [
+  [
+   "predict products of nucleophilic addition to aldehydes and ketones",
+   2.6
+  ],
+  [
+   "rank carboxylic acid derivatives by reactivity and interconvert them",
+   3.6
+  ],
+  [
+   "choose hydride or organometallic reagents for carbonyl transformations",
+   4.2
+  ]
+ ],
+ "klein.mech": [
+  [
+   "push electrons correctly with curved arrows",
+   2.6
+  ],
+  [
+   "propose a multi-step mechanism for an unfamiliar reaction",
+   3.6
+  ],
+  [
+   "predict the product of any polar reaction by mapping nucleophile to electrophile",
+   4.3
+  ]
+ ],
+ "wade.subst": [
+  [
+   "rank carbocation stability and predict rearrangements",
+   2.6
+  ],
+  [
+   "compare nucleophiles, leaving groups and solvents for SN reactions",
+   3.6
+  ],
+  [
+   "assign stereochemistry in substitution products",
+   4.2
+  ]
+ ],
+ "wade.elim": [
+  [
+   "predict Zaitsev vs Hofmann products",
+   2.6
+  ],
+  [
+   "apply the anti-periplanar requirement in cyclohexane E2",
+   3.6
+  ],
+  [
+   "decide between substitution and elimination",
+   4.2
+  ]
+ ],
+ "wade.eas": [
+  [
+   "write the mechanism of electrophilic aromatic substitution",
+   2.6
+  ],
+  [
+   "predict directing effects of substituents",
+   3.2
+  ],
+  [
+   "design a multi-step synthesis of a disubstituted benzene",
+   4
+  ]
+ ],
+ "wade.enolate": [
+  [
+   "predict the aldol product from two carbonyl compounds",
+   2.6
+  ],
+  [
+   "control kinetic vs thermodynamic enolate formation",
+   3.6
+  ],
+  [
+   "plan acetoacetic and malonic ester syntheses",
+   4.2
+  ]
+ ],
+ "wade.pericyc": [
+  [
+   "predict Diels–Alder products including endo and regiochemistry",
+   2.6
+  ],
+  [
+   "design a Robinson annulation",
+   3.8
+  ]
+ ],
+ "wade.redox": [
+  [
+   "choose reagents to oxidize alcohols to aldehydes, ketones or acids",
+   2.6
+  ],
+  [
+   "select hydride reducing agents for specific functional groups",
+   3.6
+  ]
+ ],
+ "eliel.chir": [
+  [
+   "assign R/S descriptors with CIP rules and name any simple chiral organic compound",
+   2.6
+  ],
+  [
+   "recognize meso compounds and count stereoisomers",
+   3.6
+  ],
+  [
+   "apply symmetry elements to decide chirality",
+   4.2
+  ]
+ ],
+ "eliel.conf": [
+  [
+   "draw chair cyclohexanes and ring flips",
+   2.6
+  ],
+  [
+   "use A-values to predict conformer populations",
+   3.6
+  ],
+  [
+   "analyze disubstituted cyclohexanes for the most stable chair",
+   4.2
+  ]
+ ],
+ "eliel.topic": [
+  [
+   "distinguish homotopic, enantiotopic and diastereotopic groups",
+   2.6
+  ],
+  [
+   "predict NMR consequences of topicity",
+   3.6
+  ]
+ ],
+ "eliel.resol": [
+  [
+   "explain how a racemate is resolved with a chiral resolving agent",
+   2.6
+  ],
+  [
+   "calculate ee, er and optical purity",
+   3.6
+  ],
+  [
+   "describe kinetic resolution and dynamic kinetic resolution",
+   4.2
+  ]
+ ],
+ "eliel.select": [
+  [
+   "predict diastereoselectivity with Felkin–Anh and Cram models",
+   2.8
+  ],
+  [
+   "relate ΔΔG‡ to enantiomeric ratio",
+   3.8
+  ]
+ ],
+ "eliel.axial": [
+  [
+   "identify axial, planar and helical chirality",
+   2.6
+  ],
+  [
+   "explain atropisomerism in biaryls",
+   3.6
+  ]
+ ],
+ "carey.lfer": [
+  [
+   "interpret Hammett σ and ρ values",
+   2.6
+  ],
+  [
+   "diagnose mechanism changes from Hammett plots",
+   3.6
+  ],
+  [
+   "apply LFERs beyond Hammett",
+   4.3
+  ]
+ ],
+ "carey.kie": [
+  [
+   "explain primary and secondary kinetic isotope effects",
+   2.6
+  ],
+  [
+   "distinguish kinetic and thermodynamic control",
+   3.6
+  ],
+  [
+   "apply the Curtin–Hammett principle",
+   4.3
+  ]
+ ],
+ "carey.cation": [
+  [
+   "explain carbocation stabilization by hyperconjugation",
+   2.6
+  ],
+  [
+   "predict Wagner–Meerwein and pinacol rearrangement outcomes",
+   3.6
+  ],
+  [
+   "describe non-classical ions and neighboring-group participation",
+   4.3
+  ]
+ ],
+ "carey.fmo": [
+  [
+   "apply Woodward–Hoffmann rules to cycloadditions",
+   2.6
+  ],
+  [
+   "predict electrocyclization stereochemistry",
+   3.6
+  ],
+  [
+   "use FMO theory to rationalize regiochemistry",
+   4.3
+  ]
+ ],
+ "carey.organomet": [
+  [
+   "describe the Pd catalytic cycle for cross-coupling",
+   2.6
+  ],
+  [
+   "count electrons using the 18-electron rule",
+   3.6
+  ],
+  [
+   "compare organolithium, Grignard and cuprate reactivity",
+   4.2
+  ]
+ ],
+ "carey.enolst": [
+  [
+   "relate enolate geometry to aldol syn/anti selectivity",
+   2.8
+  ],
+  [
+   "explain the Zimmerman–Traxler model and auxiliary-controlled aldol",
+   3.8
+  ]
+ ],
+ "kurti.cc": [
+  [
+   "pick Wittig, HWE or Reformatsky for a target alkene or β-hydroxy ester",
+   2.6
+  ],
+  [
+   "predict alkene geometry from ylide type",
+   3.6
+  ],
+  [
+   "compare olefination methods strategically",
+   4.3
+  ]
+ ],
+ "kurti.pericyc": [
+  [
+   "recognize Claisen and Cope [3,3] rearrangements",
+   2.6
+  ],
+  [
+   "predict products of Diels–Alder and ene reactions",
+   3.6
+  ]
+ ],
+ "kurti.rearr": [
+  [
+   "identify Beckmann, Hofmann and Curtius rearrangements",
+   2.6
+  ],
+  [
+   "use migratory aptitude to predict Baeyer–Villiger products",
+   3.6
+  ],
+  [
+   "recognize pinacol and Favorskii patterns",
+   4.2
+  ]
+ ],
+ "kurti.coupling": [
+  [
+   "match Suzuki, Stille, Negishi and Kumada to their organometallic partners",
+   2.6
+  ],
+  [
+   "predict coupling products and bond formed",
+   3.6
+  ],
+  [
+   "explain ligand and base roles in Pd catalysis",
+   4.3
+  ]
+ ],
+ "kurti.redox": [
+  [
+   "choose Swern, DMP, Birch, Wolff–Kishner or Clemmensen for a transformation",
+   2.6
+  ],
+  [
+   "explain Sharpless epoxidation selectivity",
+   3.6
+  ],
+  [
+   "use the Mitsunobu inversion strategically",
+   4.2
+  ]
+ ],
+ "kurti.fgi": [
+  [
+   "apply Williamson and related interchange reactions",
+   2.6
+  ],
+  [
+   "plan stereo-defined functional-group interchange",
+   3.6
+  ]
+ ],
+ "zweifel.disc": [
+  [
+   "draw retrosynthetic arrows and identify synthons",
+   2.6
+  ],
+  [
+   "disconnect 1,2-, 1,3-, 1,4- and 1,5-related carbonyl patterns",
+   3.6
+  ],
+  [
+   "plan multi-step routes to a target",
+   4.3
+  ]
+ ],
+ "zweifel.umpol": [
+  [
+   "explain umpolung and acyl anion equivalents",
+   2.6
+  ],
+  [
+   "apply FGI and FGA in retrosynthesis",
+   3.6
+  ]
+ ],
+ "zweifel.pg": [
+  [
+   "choose a protecting group for alcohols, amines and carbonyls",
+   2.6
+  ],
+  [
+   "design an orthogonal protection scheme",
+   3.6
+  ]
+ ],
+ "zweifel.ring": [
+  [
+   "apply Baldwin's rules to ring closures",
+   2.6
+  ],
+  [
+   "design ring construction via Robinson, Diels–Alder or RCM",
+   3.6
+  ]
+ ],
+ "zweifel.select": [
+  [
+   "distinguish chemo-, regio- and stereoselectivity",
+   2.6
+  ],
+  [
+   "choose reagents for selective reductions and oxidations",
+   3.6
+  ]
+ ],
+ "silverstein.ms": [
+  [
+   "read the molecular ion and isotope pattern of a spectrum",
+   2.6
+  ],
+  [
+   "explain α-cleavage and McLafferty fragments",
+   3.6
+  ],
+  [
+   "use the nitrogen rule to constrain a formula",
+   4
+  ]
+ ],
+ "silverstein.ir": [
+  [
+   "assign major functional groups from an IR spectrum",
+   2.6
+  ],
+  [
+   "use carbonyl frequencies to distinguish ketone, ester, amide, acid chloride",
+   3.6
+  ]
+ ],
+ "silverstein.hnmr": [
+  [
+   "interpret chemical shift, integration and splitting",
+   2.6
+  ],
+  [
+   "predict a 1H NMR spectrum for a simple molecule",
+   3.6
+  ],
+  [
+   "deal with diastereotopic and exchangeable protons",
+   4.3
+  ]
+ ],
+ "silverstein.cnmr": [
+  [
+   "count unique carbons using symmetry",
+   2.6
+  ],
+  [
+   "interpret DEPT experiments",
+   3.6
+  ],
+  [
+   "use 2D NMR logic for connectivity",
+   4.3
+  ]
+ ],
+ "silverstein.combined": [
+  [
+   "compute degrees of unsaturation from a formula",
+   2.6
+  ],
+  [
+   "deduce a simple structure from combined MS, IR and NMR data",
+   3.6
+  ],
+  [
+   "solve unfamiliar unknowns with a systematic workflow",
+   4.3
+  ]
+ ],
+ "skoog.beer": [
+  [
+   "apply Beer's law to find concentration",
+   2.6
+  ],
+  [
+   "explain deviations from Beer's law",
+   3.6
+  ]
+ ],
+ "skoog.chrom": [
+  [
+   "compute resolution and plate number",
+   2.6
+  ],
+  [
+   "explain the van Deemter curve",
+   3.6
+  ]
+ ],
+ "skoog.gc": [
+  [
+   "choose a GC column, carrier and detector for a sample",
+   2.6
+  ],
+  [
+   "explain temperature programming",
+   3.6
+  ]
+ ],
+ "skoog.hplc": [
+  [
+   "predict elution order in reversed-phase HPLC",
+   2.6
+  ],
+  [
+   "choose isocratic vs gradient conditions",
+   3.6
+  ]
+ ],
+ "skoog.msinst": [
+  [
+   "compare ionization methods (EI, CI, ESI, MALDI)",
+   2.6
+  ],
+  [
+   "compare analyzers and resolving power",
+   3.6
+  ]
+ ],
+ "skoog.atomic": [
+  [
+   "compare flame AAS, ICP-OES and ICP-MS",
+   2.6
+  ],
+  [
+   "identify interferences in atomic spectroscopy",
+   3.6
+  ]
+ ],
+ "skoog.calib": [
+  [
+   "calculate a limit of detection",
+   2.6
+  ],
+  [
+   "choose internal standard or standard-additions calibration",
+   3.6
+  ]
+ ],
+ "fogler.mole": [
+  [
+   "write the design equations for batch, CSTR and PFR",
+   2.6
+  ],
+  [
+   "use Levenspiel plots to compare reactor volumes",
+   3.6
+  ]
+ ],
+ "fogler.conv": [
+  [
+   "build a stoichiometric table and compute conversion",
+   2.6
+  ],
+  [
+   "handle gas-phase volume change with ε",
+   3.6
+  ]
+ ],
+ "fogler.rate": [
+  [
+   "distinguish elementary from non-elementary rate laws",
+   2.6
+  ],
+  [
+   "apply the pseudo-steady-state hypothesis",
+   3.6
+  ]
+ ],
+ "fogler.design": [
+  [
+   "size a CSTR and a PFR for a first-order reaction",
+   2.6
+  ],
+  [
+   "analyze reactors in series and Damköhler number",
+   3.6
+  ]
+ ],
+ "fogler.energy": [
+  [
+   "write the reactor energy balance",
+   2.6
+  ],
+  [
+   "explain multiple steady states and thermal runaway",
+   3.8
+  ]
+ ],
+ "fogler.cat": [
+  [
+   "use Langmuir adsorption in a rate law",
+   2.6
+  ],
+  [
+   "interpret Thiele modulus and effectiveness factor",
+   3.8
+  ]
+ ],
+ "towler.mb": [
+  [
+   "draw a block flow diagram and close material balances",
+   2.6
+  ],
+  [
+   "solve recycle and purge problems",
+   3.6
+  ]
+ ],
+ "towler.fluid": [
+  [
+   "compute Reynolds number and identify flow regime",
+   2.6
+  ],
+  [
+   "estimate pipe pressure drop and discuss pump NPSH",
+   3.6
+  ]
+ ],
+ "towler.heat": [
+  [
+   "compute LMTD and size a heat exchanger",
+   2.6
+  ],
+  [
+   "compare counter-current and co-current exchangers",
+   3.6
+  ]
+ ],
+ "towler.sep": [
+  [
+   "use relative volatility and McCabe–Thiele ideas",
+   2.6
+  ],
+  [
+   "estimate minimum stages (Fenske) and minimum reflux",
+   3.8
+  ]
+ ],
+ "towler.cost": [
+  [
+   "scale equipment cost with the six-tenths rule",
+   2.6
+  ],
+  [
+   "evaluate a project with NPV and payback",
+   3.6
+  ]
+ ],
+ "towler.safety": [
+  [
+   "describe HAZOP guide words and deviations",
+   2.6
+  ],
+  [
+   "apply inherently safer design principles",
+   3.6
+  ]
+ ],
+ "safety.ghs": [
+  [
+   "read a GHS label and pictograms and say what hazard each signals",
+   2.6
+  ],
+  [
+   "pull the right facts from the 16 SDS sections for a new chemical",
+   3.6
+  ]
+ ],
+ "safety.tox": [
+  [
+   "explain LD50, dose–response and why a lower LD50 means higher toxicity",
+   2.6
+  ],
+  [
+   "interpret TWA, STEL and ceiling exposure limits",
+   3.6
+  ],
+  [
+   "explain why odor is not a safe warning property",
+   4.2
+  ]
+ ],
+ "safety.incompat": [
+  [
+   "explain why oxidizers and fuels must be stored apart",
+   2.6
+  ],
+  [
+   "explain why some common combinations (bleach with ammonia or acids) release toxic gases",
+   3.2
+  ],
+  [
+   "use a segregation chart to decide what can be stored together",
+   3.8
+  ]
+ ],
+ "safety.runaway": [
+  [
+   "explain how heat generation outpacing heat removal causes a runaway",
+   2.6
+  ],
+  [
+   "estimate an adiabatic temperature rise from ΔH and heat capacity",
+   3.6
+  ],
+  [
+   "explain why scale-up increases runaway risk",
+   4
+  ]
+ ],
+ "safety.flam": [
+  [
+   "distinguish flash point, autoignition temperature and explosion limits",
+   2.6
+  ],
+  [
+   "use LEL/UEL (and Le Chatelier mixing) to judge flammable atmospheres",
+   3.6
+  ]
+ ],
+ "safety.ctrl": [
+  [
+   "rank safeguards using the hierarchy of controls",
+   2.6
+  ],
+  [
+   "choose PPE and explain glove permeation limits",
+   3.4
+  ],
+  [
+   "describe correct first-response principles for spills and exposures",
+   3.8
+  ]
+ ],
+ "safety.process": [
+  [
+   "run a HAZOP-style deviation analysis on a simple process node",
+   2.6
+  ],
+  [
+   "explain layers of protection and inherently safer design",
+   3.6
+  ],
+  [
+   "explain the lessons of management of change and inventory minimization from major incidents",
+   4.2
+  ]
+ ]
+}

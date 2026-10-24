@@ -1,0 +1,1085 @@
+{
+ "modules": [
+  {
+   "id": "m1",
+   "n": 1,
+   "name": "The Molecular Foundations",
+   "months": [
+    1,
+    4
+   ],
+   "blurb": "Atoms, bonding, stoichiometry, thermodynamics, quantum mechanics, kinetics.",
+   "masterTitle": "molecular foundations",
+   "badge": "🧱"
+  },
+  {
+   "id": "m2",
+   "n": 2,
+   "name": "Core Organic Architecture & Mechanisms",
+   "months": [
+    5,
+    12
+   ],
+   "blurb": "Arrow-pushing, substitution/elimination, carbonyl chemistry, stereochemistry.",
+   "masterTitle": "organic structure & mechanism",
+   "badge": "➰"
+  },
+  {
+   "id": "m3",
+   "n": 3,
+   "name": "Advanced Strategic Synthesis",
+   "months": [
+    13,
+    18
+   ],
+   "blurb": "Physical organic chemistry, named reactions, retrosynthetic analysis.",
+   "masterTitle": "advanced synthesis",
+   "badge": "♟️"
+  },
+  {
+   "id": "m4",
+   "n": 4,
+   "name": "Structure Elucidation & Instrumental Analysis",
+   "months": [
+    19,
+    21
+   ],
+   "blurb": "MS, IR, NMR, chromatography and instrument physics.",
+   "masterTitle": "structure elucidation & instrumental analysis",
+   "badge": "🔭"
+  },
+  {
+   "id": "m5",
+   "n": 5,
+   "name": "Reaction Engineering & Process Design",
+   "months": [
+    22,
+    24
+   ],
+   "blurb": "Reactor design, heat/mass transfer, separations, plant design and safety.",
+   "masterTitle": "reaction engineering & process design",
+   "badge": "🏭"
+  }
+ ],
+ "books": [
+  {
+   "id": "safety",
+   "module": "m1",
+   "months": [
+    1,
+    1
+   ],
+   "title": "Chemical Safety & Hazards (track)",
+   "authors": "GHS / SDS · process-safety fundamentals · links to Fogler & Towler",
+   "masterTitle": "chemical safety & hazard analysis",
+   "badge": "🦺",
+   "topics": [
+    {
+     "id": "ghs",
+     "name": "GHS labels & reading an SDS",
+     "focus": [
+      "Signal words, pictograms, H- and P-statements",
+      "The 16 SDS sections and which one answers which question",
+      "Reading hazard classes: flammable, oxidizer, corrosive, toxic, health vs physical"
+     ]
+    },
+    {
+     "id": "tox",
+     "name": "Toxicology concepts",
+     "focus": [
+      "Dose–response, LD50/LC50 and what they do and do not tell you",
+      "Exposure routes; acute vs chronic effects",
+      "Exposure limits: TWA, STEL, ceiling; odor thresholds are unreliable"
+     ]
+    },
+    {
+     "id": "incompat",
+     "name": "Incompatible chemicals: what not to mix and why",
+     "focus": [
+      "Oxidizers + fuels: why oxygen supply turns a fuel into a fire hazard",
+      "Acids with cyanide/sulfide/hypochlorite salts; bleach + ammonia: toxic gas formation",
+      "Water-reactive and peroxide-forming materials; dilution of strong acids",
+      "Reading segregation tables and storage groups"
+     ]
+    },
+    {
+     "id": "runaway",
+     "name": "Exothermic & runaway reactions",
+     "focus": [
+      "Heat generation vs heat removal; Arrhenius vs linear cooling",
+      "Adiabatic temperature rise and accumulation in semi-batch operation",
+      "Why scale-up reduces cooling margin",
+      "Link: Fogler non-isothermal reactor stability (Module 5)"
+     ]
+    },
+    {
+     "id": "flam",
+     "name": "Flammability & explosion limits",
+     "focus": [
+      "Flash point, autoignition temperature, LEL/UEL",
+      "Fire triangle, dust explosion pentagon, minimum ignition energy",
+      "Inerting, grounding/bonding and ventilation as controls"
+     ]
+    },
+    {
+     "id": "ctrl",
+     "name": "Controls, PPE & emergency response",
+     "focus": [
+      "Hierarchy of controls: elimination → PPE",
+      "Fume hoods, glove permeation, eye protection, respirator limits",
+      "Spill and exposure response principles; eyewash/shower use"
+     ]
+    },
+    {
+     "id": "process",
+     "name": "Process safety & HAZOP basics",
+     "focus": [
+      "HAZOP guide words and deviations on P&IDs",
+      "Layers of protection, relief devices and inherently safer design",
+      "Case lessons: management of change and inventory minimization",
+      "Link: Towler & Sinnott safety and loss prevention (Module 5)"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cts",
+   "module": "m1",
+   "months": [
+    1,
+    2
+   ],
+   "title": "Chemistry: The Central Science",
+   "authors": "Brown, LeMay, Bursten",
+   "topics": [
+    {
+     "id": "atoms",
+     "name": "Atomic structure & periodic trends",
+     "focus": [
+      "Quantum numbers, orbitals and electron configurations",
+      "Periodic trends: radius, ionization energy, electron affinity, electronegativity",
+      "Exceptions to filling order and ion configurations"
+     ]
+    },
+    {
+     "id": "bonding",
+     "name": "Bonding & molecular geometry",
+     "focus": [
+      "Lewis structures, formal charge and resonance",
+      "VSEPR geometries including lone-pair cases",
+      "Hybridization, sigma/pi bonds and MO basics",
+      "Molecular polarity and intermolecular forces"
+     ]
+    },
+    {
+     "id": "stoich",
+     "name": "Stoichiometry & solution chemistry",
+     "focus": [
+      "Mole concept, molar mass, empirical/molecular formulas",
+      "Balancing reactions and limiting reagent / percent yield",
+      "Molarity, dilution and titration calculations"
+     ]
+    },
+    {
+     "id": "thermo",
+     "name": "Thermochemistry & gases",
+     "focus": [
+      "Enthalpy, calorimetry and Hess's law",
+      "Ideal gas law, partial pressures, kinetic molecular theory",
+      "Real gases and van der Waals corrections"
+     ]
+    },
+    {
+     "id": "equil",
+     "name": "Equilibrium & acid–base chemistry",
+     "focus": [
+      "K, Q and Le Chatelier's principle",
+      "Strong/weak acid and base pH calculations",
+      "Buffers, titration curves and solubility equilibria"
+     ]
+    },
+    {
+     "id": "redox",
+     "name": "Redox & electrochemistry",
+     "focus": [
+      "Oxidation states and balancing redox reactions",
+      "Galvanic cells and standard potentials",
+      "Nernst equation and the link E°–ΔG°–K"
+     ]
+    }
+   ],
+   "masterTitle": "general chemistry & stoichiometry",
+   "badge": "⚛️"
+  },
+  {
+   "id": "pchem",
+   "module": "m1",
+   "months": [
+    3,
+    4
+   ],
+   "title": "Physical Chemistry: A Molecular Approach",
+   "authors": "McQuarrie, Simon",
+   "topics": [
+    {
+     "id": "qm",
+     "name": "Quantum mechanics of atoms & molecules",
+     "focus": [
+      "Postulates, operators and the Schrödinger equation",
+      "Particle in a box, harmonic oscillator, rigid rotor",
+      "Hydrogen atom and orbital structure",
+      "Uncertainty principle and expectation values"
+     ]
+    },
+    {
+     "id": "thermo1",
+     "name": "First & second laws",
+     "focus": [
+      "Work, heat, internal energy, enthalpy",
+      "Heat capacities and reversible processes",
+      "Entropy and the second law, Carnot cycle"
+     ]
+    },
+    {
+     "id": "gibbs",
+     "name": "Free energy & chemical equilibrium",
+     "focus": [
+      "Helmholtz and Gibbs energies, Maxwell relations",
+      "Chemical potential and phase equilibria",
+      "ΔG°–K link and van't Hoff equation"
+     ]
+    },
+    {
+     "id": "kin",
+     "name": "Chemical kinetics",
+     "focus": [
+      "Rate laws, integrated rate laws, half-lives",
+      "Arrhenius equation and transition-state theory",
+      "Complex mechanisms: steady state, Lindemann, catalysis"
+     ]
+    },
+    {
+     "id": "stat",
+     "name": "Statistical thermodynamics",
+     "focus": [
+      "Boltzmann distribution and partition functions",
+      "Equipartition and heat capacities",
+      "Link from q to U, S, A, G"
+     ]
+    },
+    {
+     "id": "spec",
+     "name": "Molecular spectroscopy",
+     "focus": [
+      "Rotational and vibrational spectra, selection rules",
+      "Electronic transitions and Franck–Condon",
+      "Spin resonance and magnetic resonance basics"
+     ]
+    }
+   ],
+   "masterTitle": "physical chemistry & thermodynamics",
+   "badge": "🔥"
+  },
+  {
+   "id": "klein",
+   "module": "m2",
+   "months": [
+    5,
+    8
+   ],
+   "title": "Organic Chemistry (Klein)",
+   "authors": "David Klein",
+   "topics": [
+    {
+     "id": "acidbase",
+     "name": "Acid–base & resonance",
+     "focus": [
+      "Drawing and ranking resonance contributors",
+      "Factors controlling acidity (ARIO)",
+      "Predicting acid–base equilibrium direction with pKa"
+     ]
+    },
+    {
+     "id": "subst",
+     "name": "Substitution & elimination",
+     "focus": [
+      "SN1, SN2, E1, E2 mechanisms and rate laws",
+      "Substrate, nucleophile, solvent and temperature effects",
+      "Stereochemical outcomes and regioselectivity"
+     ]
+    },
+    {
+     "id": "addition",
+     "name": "Alkene & alkyne additions",
+     "focus": [
+      "Markovnikov / anti-Markovnikov additions",
+      "Hydroboration, halogenation, epoxidation, dihydroxylation",
+      "Alkyne reductions and hydration"
+     ]
+    },
+    {
+     "id": "radical",
+     "name": "Radical reactions",
+     "focus": [
+      "Initiation, propagation, termination",
+      "Selectivity of bromination vs chlorination",
+      "Radical stability"
+     ]
+    },
+    {
+     "id": "carbonyl",
+     "name": "Carbonyl chemistry",
+     "focus": [
+      "Nucleophilic addition to aldehydes/ketones",
+      "Carboxylic acid derivative reactivity and interconversion",
+      "Hydride and organometallic reagents"
+     ]
+    },
+    {
+     "id": "mech",
+     "name": "Arrow-pushing skills",
+     "focus": [
+      "Curved-arrow conventions and electron flow",
+      "Proposing multi-step mechanisms",
+      "Predicting products by mapping nucleophile → electrophile"
+     ]
+    }
+   ],
+   "masterTitle": "organic reaction mechanisms",
+   "badge": "➰"
+  },
+  {
+   "id": "wade",
+   "module": "m2",
+   "months": [
+    9,
+    10
+   ],
+   "title": "Organic Chemistry (Wade)",
+   "authors": "L.G. Wade Jr.",
+   "topics": [
+    {
+     "id": "subst",
+     "name": "Substitutions (SN1/SN2)",
+     "focus": [
+      "Carbocation stability and rearrangements",
+      "Leaving groups, nucleophilicity, solvent effects",
+      "Stereochemistry of substitution"
+     ]
+    },
+    {
+     "id": "elim",
+     "name": "Eliminations (E1/E2)",
+     "focus": [
+      "Zaitsev vs Hofmann outcomes",
+      "Anti-periplanar requirement in cyclic systems",
+      "SN vs E competition"
+     ]
+    },
+    {
+     "id": "eas",
+     "name": "Aromatic substitution",
+     "focus": [
+      "Electrophilic aromatic substitution mechanism",
+      "Directing and activating/deactivating effects",
+      "Multi-step aromatic synthesis planning"
+     ]
+    },
+    {
+     "id": "enolate",
+     "name": "Enolates, aldol & Claisen",
+     "focus": [
+      "Enolate formation: kinetic vs thermodynamic",
+      "Aldol, Claisen, Dieckmann, Michael",
+      "Acetoacetic / malonic ester syntheses"
+     ]
+    },
+    {
+     "id": "pericyc",
+     "name": "Diels–Alder & ring synthesis",
+     "focus": [
+      "Diels–Alder scope, endo rule, regiochemistry",
+      "Robinson annulation and ring-forming strategies"
+     ]
+    },
+    {
+     "id": "redox",
+     "name": "Alcohol & carbonyl redox",
+     "focus": [
+      "Oxidation of alcohols (PCC, Jones, Swern)",
+      "Hydride reductions and their selectivity"
+     ]
+    }
+   ],
+   "masterTitle": "organic functional-group chemistry",
+   "badge": "🧪"
+  },
+  {
+   "id": "eliel",
+   "module": "m2",
+   "months": [
+    11,
+    12
+   ],
+   "title": "Stereochemistry of Organic Compounds",
+   "authors": "Eliel, Wilen",
+   "topics": [
+    {
+     "id": "chir",
+     "name": "Chirality, symmetry & CIP",
+     "focus": [
+      "Symmetry elements and chirality criterion",
+      "CIP priority rules and R/S assignment",
+      "Meso compounds and counting stereoisomers"
+     ]
+    },
+    {
+     "id": "conf",
+     "name": "Conformational analysis",
+     "focus": [
+      "Cyclohexane chairs, A-values",
+      "Substituted cyclohexanes and ring-flip equilibria",
+      "Acyclic conformations and gauche effects"
+     ]
+    },
+    {
+     "id": "topic",
+     "name": "Topicity & NMR consequences",
+     "focus": [
+      "Homotopic, enantiotopic, diastereotopic groups",
+      "Prochirality (Re/Si)",
+      "Topicity and NMR/ reactivity"
+     ]
+    },
+    {
+     "id": "resol",
+     "name": "Resolution & enantiomeric purity",
+     "focus": [
+      "Diastereomeric salt resolution",
+      "ee, er and optical purity calculations",
+      "Kinetic resolution and DKR"
+     ]
+    },
+    {
+     "id": "select",
+     "name": "Stereoselective reactions",
+     "focus": [
+      "Cram, Felkin–Anh models",
+      "Chiral auxiliaries and catalysts",
+      "Energy gap ↔ selectivity relationship"
+     ]
+    },
+    {
+     "id": "axial",
+     "name": "Axial, planar & helical chirality",
+     "focus": [
+      "Allenes, biaryls, atropisomers",
+      "Planar chirality and helicenes"
+     ]
+    }
+   ],
+   "masterTitle": "stereochemistry",
+   "badge": "🪞"
+  },
+  {
+   "id": "carey",
+   "module": "m3",
+   "months": [
+    13,
+    15
+   ],
+   "title": "Advanced Organic Chemistry, Parts A & B",
+   "authors": "Carey, Sundberg",
+   "topics": [
+    {
+     "id": "lfer",
+     "name": "Linear free-energy relationships",
+     "focus": [
+      "Hammett σ/ρ and substituent constants",
+      "Interpreting ρ and curved Hammett plots",
+      "Taft and other LFER"
+     ]
+    },
+    {
+     "id": "kie",
+     "name": "Isotope effects & reaction control",
+     "focus": [
+      "Primary and secondary kinetic isotope effects",
+      "Kinetic vs thermodynamic control",
+      "Curtin–Hammett principle"
+     ]
+    },
+    {
+     "id": "cation",
+     "name": "Carbocations & rearrangements",
+     "focus": [
+      "Hyperconjugation and cation stability",
+      "Wagner–Meerwein and pinacol shifts",
+      "Non-classical ions and neighbouring-group participation"
+     ]
+    },
+    {
+     "id": "fmo",
+     "name": "FMO theory & pericyclic reactions",
+     "focus": [
+      "Woodward–Hoffmann rules",
+      "Cycloadditions, electrocyclizations, sigmatropic shifts",
+      "FMO control of rate and regiochemistry"
+     ]
+    },
+    {
+     "id": "organomet",
+     "name": "Organometallics & coupling",
+     "focus": [
+      "Oxidative addition, transmetalation, reductive elimination",
+      "Pd-catalysed couplings and the 18-electron rule",
+      "Organolithium/Grignard/cuprate reactivity"
+     ]
+    },
+    {
+     "id": "enolst",
+     "name": "Stereoselective enolate chemistry",
+     "focus": [
+      "Enolate geometry control",
+      "Zimmerman–Traxler model",
+      "Auxiliaries and asymmetric aldol"
+     ]
+    }
+   ],
+   "masterTitle": "physical organic chemistry & advanced mechanisms",
+   "badge": "🧠"
+  },
+  {
+   "id": "kurti",
+   "module": "m3",
+   "months": [
+    16,
+    17
+   ],
+   "title": "Strategic Applications of Named Reactions in Organic Synthesis",
+   "authors": "Kürti, Czakó",
+   "topics": [
+    {
+     "id": "cc",
+     "name": "Carbonyl C–C bond formation",
+     "focus": [
+      "Wittig/HWE/Julia olefination",
+      "Aldol-type, Reformatsky, Grignard family",
+      "Stereochemical outcome of olefinations"
+     ]
+    },
+    {
+     "id": "pericyc",
+     "name": "Pericyclic named reactions",
+     "focus": [
+      "Diels–Alder, Claisen, Cope",
+      "Ene reaction, 1,3-dipolar cycloadditions"
+     ]
+    },
+    {
+     "id": "rearr",
+     "name": "Rearrangements",
+     "focus": [
+      "Beckmann, Hofmann, Curtius",
+      "Baeyer–Villiger and migratory aptitude",
+      "Pinacol/semipinacol, Favorskii"
+     ]
+    },
+    {
+     "id": "coupling",
+     "name": "Pd/Cu cross-couplings",
+     "focus": [
+      "Suzuki, Stille, Negishi, Kumada",
+      "Heck, Sonogashira, Buchwald–Hartwig",
+      "Mechanism and ligand roles"
+     ]
+    },
+    {
+     "id": "redox",
+     "name": "Oxidations & reductions",
+     "focus": [
+      "Swern, Dess–Martin, Sharpless, Birch",
+      "Wolff–Kishner vs Clemmensen",
+      "Mitsunobu and related"
+     ]
+    },
+    {
+     "id": "fgi",
+     "name": "Functional-group interchange",
+     "focus": [
+      "Williamson, Mitsunobu, Appel-type substitutions",
+      "Heteroatom bond-forming named reactions"
+     ]
+    }
+   ],
+   "masterTitle": "named reactions",
+   "badge": "📛"
+  },
+  {
+   "id": "zweifel",
+   "module": "m3",
+   "months": [
+    18,
+    18
+   ],
+   "title": "Modern Organic Synthesis: An Introduction",
+   "authors": "Zweifel, Nantz, Somfai",
+   "topics": [
+    {
+     "id": "disc",
+     "name": "Disconnection & synthons",
+     "focus": [
+      "Retrosynthetic notation and synthons",
+      "Disconnections by carbonyl relationship (1,2 / 1,3 / 1,4 / 1,5)",
+      "Multi-step route design"
+     ]
+    },
+    {
+     "id": "umpol",
+     "name": "Umpolung & functional-group interchange",
+     "focus": [
+      "Acyl anion equivalents (dithianes)",
+      "FGI and FGA strategies"
+     ]
+    },
+    {
+     "id": "pg",
+     "name": "Protecting groups",
+     "focus": [
+      "Silyl, acetal, carbamate, benzyl groups",
+      "Orthogonal protection",
+      "Installation/removal conditions"
+     ]
+    },
+    {
+     "id": "ring",
+     "name": "Ring construction",
+     "focus": [
+      "Baldwin's rules",
+      "Robinson annulation, RCM, Diels–Alder in synthesis",
+      "Strain and ring-size effects"
+     ]
+    },
+    {
+     "id": "select",
+     "name": "Chemo-, regio- & stereoselectivity",
+     "focus": [
+      "Selective reductions and oxidations",
+      "Regiocontrol via kinetic enolates",
+      "Stereocontrol strategies"
+     ]
+    }
+   ],
+   "masterTitle": "retrosynthetic analysis & synthesis planning",
+   "badge": "🗺️"
+  },
+  {
+   "id": "silverstein",
+   "module": "m4",
+   "months": [
+    19,
+    20
+   ],
+   "title": "Spectrometric Identification of Organic Compounds",
+   "authors": "Silverstein, Webster, Kiemle",
+   "topics": [
+    {
+     "id": "ms",
+     "name": "Mass spectrometry",
+     "focus": [
+      "Molecular ion, isotope patterns, nitrogen rule",
+      "Fragmentation: α-cleavage, McLafferty",
+      "Interpreting EI spectra"
+     ]
+    },
+    {
+     "id": "ir",
+     "name": "Infrared spectroscopy",
+     "focus": [
+      "Functional-group stretching region",
+      "Carbonyl frequencies and their trends",
+      "Fingerprint features"
+     ]
+    },
+    {
+     "id": "hnmr",
+     "name": "¹H NMR",
+     "focus": [
+      "Chemical shift ranges, integration",
+      "Spin–spin splitting and coupling constants",
+      "Diastereotopic and exchangeable protons"
+     ]
+    },
+    {
+     "id": "cnmr",
+     "name": "¹³C NMR & DEPT",
+     "focus": [
+      "Shift ranges and symmetry-equivalent carbons",
+      "DEPT-90/135",
+      "2D NMR (COSY, HSQC, HMBC) basics"
+     ]
+    },
+    {
+     "id": "combined",
+     "name": "Combined problem solving",
+     "focus": [
+      "Degrees of unsaturation from formula",
+      "Combining MS/IR/NMR to elucidate structure",
+      "Systematic workflow for unknowns"
+     ]
+    }
+   ],
+   "masterTitle": "spectroscopy & structure elucidation",
+   "badge": "📈"
+  },
+  {
+   "id": "skoog",
+   "module": "m4",
+   "months": [
+    21,
+    21
+   ],
+   "title": "Principles of Instrumental Analysis",
+   "authors": "Skoog, Holler, Crouch",
+   "topics": [
+    {
+     "id": "beer",
+     "name": "Spectrophotometry & Beer's law",
+     "focus": [
+      "Absorbance, transmittance, molar absorptivity",
+      "Deviations from Beer's law",
+      "Instrument components"
+     ]
+    },
+    {
+     "id": "chrom",
+     "name": "Chromatographic theory",
+     "focus": [
+      "Retention, resolution, plate number",
+      "van Deemter equation",
+      "Selectivity and efficiency"
+     ]
+    },
+    {
+     "id": "gc",
+     "name": "Gas chromatography",
+     "focus": [
+      "Columns, carrier gases, programming",
+      "Detectors: FID, TCD, ECD, MS"
+     ]
+    },
+    {
+     "id": "hplc",
+     "name": "HPLC",
+     "focus": [
+      "Normal/reversed-phase retention",
+      "Gradient elution, detectors",
+      "Method development"
+     ]
+    },
+    {
+     "id": "msinst",
+     "name": "Mass-spec instrumentation",
+     "focus": [
+      "Ion sources: EI, CI, ESI, MALDI",
+      "Analyzers: quadrupole, TOF, Orbitrap, ion trap",
+      "Resolving power"
+     ]
+    },
+    {
+     "id": "atomic",
+     "name": "Atomic spectroscopy",
+     "focus": [
+      "Flame/graphite furnace AAS",
+      "ICP-OES and ICP-MS",
+      "Interferences"
+     ]
+    },
+    {
+     "id": "calib",
+     "name": "Calibration & statistics",
+     "focus": [
+      "LOD/LOQ",
+      "Internal standards and standard additions",
+      "Uncertainty and validation"
+     ]
+    }
+   ],
+   "masterTitle": "instrumental analysis",
+   "badge": "🔬"
+  },
+  {
+   "id": "fogler",
+   "module": "m5",
+   "months": [
+    22,
+    23
+   ],
+   "title": "Elements of Chemical Reaction Engineering",
+   "authors": "H. Scott Fogler",
+   "topics": [
+    {
+     "id": "mole",
+     "name": "Mole balances & reactor design equations",
+     "focus": [
+      "General mole balance",
+      "Batch, CSTR, PFR, PBR design equations",
+      "Levenspiel plots"
+     ]
+    },
+    {
+     "id": "conv",
+     "name": "Conversion & stoichiometry",
+     "focus": [
+      "Conversion and stoichiometric tables",
+      "Volume change with reaction (ε)",
+      "Concentration in flow systems"
+     ]
+    },
+    {
+     "id": "rate",
+     "name": "Rate laws & mechanisms",
+     "focus": [
+      "Elementary vs non-elementary rate laws",
+      "Arrhenius temperature dependence",
+      "Pseudo-steady-state hypothesis"
+     ]
+    },
+    {
+     "id": "design",
+     "name": "Isothermal reactor design",
+     "focus": [
+      "Sizing CSTR and PFR for given conversion",
+      "Reactors in series/parallel",
+      "Damköhler number"
+     ]
+    },
+    {
+     "id": "energy",
+     "name": "Non-isothermal operation",
+     "focus": [
+      "Energy balance on reactors",
+      "Adiabatic temperature rise",
+      "Multiple steady states and runaway",
+      "Link: Chemical Safety track — runaway reactions and accumulation"
+     ]
+    },
+    {
+     "id": "cat",
+     "name": "Catalysis & diffusion",
+     "focus": [
+      "Langmuir–Hinshelwood kinetics",
+      "Thiele modulus and effectiveness factor",
+      "Catalyst deactivation"
+     ]
+    }
+   ],
+   "masterTitle": "chemical reaction engineering",
+   "badge": "🏭"
+  },
+  {
+   "id": "towler",
+   "module": "m5",
+   "months": [
+    24,
+    24
+   ],
+   "title": "Chemical Engineering Design",
+   "authors": "Towler, Sinnott",
+   "topics": [
+    {
+     "id": "mb",
+     "name": "Flowsheets & material balances",
+     "focus": [
+      "Block flow diagrams and PFDs",
+      "Recycle, purge and bypass balances",
+      "Yield, selectivity, conversion"
+     ]
+    },
+    {
+     "id": "fluid",
+     "name": "Fluid flow & piping",
+     "focus": [
+      "Reynolds number and flow regimes",
+      "Pressure drop and friction factors",
+      "Pumps, NPSH and cavitation"
+     ]
+    },
+    {
+     "id": "heat",
+     "name": "Heat exchangers",
+     "focus": [
+      "Overall coefficient and LMTD",
+      "Counter vs co-current flow",
+      "Exchanger sizing"
+     ]
+    },
+    {
+     "id": "sep",
+     "name": "Distillation & separations",
+     "focus": [
+      "Relative volatility and VLE",
+      "McCabe–Thiele, Fenske, minimum reflux",
+      "Column internals and sizing"
+     ]
+    },
+    {
+     "id": "cost",
+     "name": "Costing & economics",
+     "focus": [
+      "Scaling by the six-tenths rule",
+      "Lang/installation factors",
+      "NPV and payback"
+     ]
+    },
+    {
+     "id": "safety",
+     "name": "Process safety",
+     "focus": [
+      "HAZOP and hazard identification",
+      "Relief systems",
+      "Inherently safer design",
+      "Link: Chemical Safety track — GHS/SDS, flammability limits, HAZOP"
+     ]
+    }
+   ],
+   "masterTitle": "chemical process design",
+   "badge": "🏗️"
+  }
+ ],
+ "titles": [
+  {
+   "id": "t-mech",
+   "name": "organic reaction mechanisms",
+   "badge": "➰",
+   "books": [
+    "klein",
+    "wade"
+   ]
+  },
+  {
+   "id": "t-spec",
+   "name": "spectroscopy",
+   "badge": "📈",
+   "books": [
+    "silverstein"
+   ]
+  },
+  {
+   "id": "t-stereo",
+   "name": "stereochemistry",
+   "badge": "🪞",
+   "books": [
+    "eliel"
+   ]
+  },
+  {
+   "id": "t-synth",
+   "name": "organic synthesis",
+   "badge": "♟️",
+   "books": [
+    "carey",
+    "kurti",
+    "zweifel"
+   ]
+  },
+  {
+   "id": "t-analytical",
+   "name": "analytical chemistry",
+   "badge": "🔬",
+   "books": [
+    "silverstein",
+    "skoog"
+   ]
+  },
+  {
+   "id": "t-physchem",
+   "name": "physical chemistry",
+   "badge": "🔥",
+   "books": [
+    "cts",
+    "pchem"
+   ]
+  },
+  {
+   "id": "t-engineering",
+   "name": "chemical engineering",
+   "badge": "🏭",
+   "books": [
+    "fogler",
+    "towler"
+   ]
+  },
+  {
+   "id": "t-psafety",
+   "name": "process safety",
+   "badge": "🦺",
+   "books": [
+    "safety",
+    "fogler",
+    "towler"
+   ]
+  }
+ ],
+ "capstone": {
+  "id": "capstone",
+  "name": "world-class chemist",
+  "badge": "👑",
+  "text": "You have mastered every book, including the safety track. Chemist, elite tier."
+ },
+ "summit": {
+  "id": "summit",
+  "name": "Master of Total Synthesis & Retrosynthesis",
+  "rank": "Alchemist Master",
+  "badge": "⚗️",
+  "text": "Summit goal: read, dissect and plan syntheses of complex published molecules on paper. Academic analysis only.",
+  "targets": [
+   {
+    "id": "tropinone",
+    "name": "Tropinone (Robinson, 1917) — biomimetic double Mannich"
+   },
+   {
+    "id": "longifolene",
+    "name": "Longifolene (Corey) — classic retrosynthetic logic"
+   },
+   {
+    "id": "pgf2a",
+    "name": "Prostaglandin F2α (Corey) — lactone/Corey-lactone strategy"
+   },
+   {
+    "id": "strychnine",
+    "name": "Strychnine (Woodward, 1954) — polycyclic alkaloid planning"
+   },
+   {
+    "id": "taxol",
+    "name": "Paclitaxel / Taxol (Nicolaou, Holton, others) — convergent strategies compared"
+   },
+   {
+    "id": "b12",
+    "name": "Vitamin B12 (Woodward–Eschenmoser) — pericyclic and macrocycle strategy"
+   }
+  ],
+  "tasks": [
+   {
+    "id": "annotate",
+    "text": "For each target above: redraw the published retrosynthesis from memory and annotate the key strategic bonds, FGIs and protecting groups"
+   },
+   {
+    "id": "paper10",
+    "text": "Plan 10 original paper routes for textbook targets (disconnection tree, forward scheme, selectivity and stereocontrol notes)"
+   },
+   {
+    "id": "compare",
+    "text": "Compare two different published total syntheses of the same natural product (convergent vs linear, step count, key reactions)"
+   },
+   {
+    "id": "teach",
+    "text": "Teach-back: explain one total synthesis end-to-end in 10 minutes without notes (record yourself and listen back)"
+   },
+   {
+    "id": "capstone",
+    "text": "Pass the Synthesis Capstone Exam (adaptive, ≥ final-exam gate) — auto-checked"
+   }
+  ]
+ }
+}
